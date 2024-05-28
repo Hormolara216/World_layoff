@@ -5,7 +5,8 @@
 # step 4: Remove any unwanted columns
 
 #create a staging table for exisiting layoff data
-#CREATE TABLE layoffs_new LIKE layoffs;
+
+CREATE TABLE layoffs_new LIKE layoffs;
 
 INSERT INTO layoffs_new
 SELECT * FROM layoffs;
